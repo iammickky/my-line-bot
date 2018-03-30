@@ -10,7 +10,7 @@ handler = WebhookHandler('2b2878273b5deece42488219dc3f1617')
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Success!"
 
 @app.route("/webhook", methods=['POST'])
 def webhook():
