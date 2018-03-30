@@ -34,7 +34,7 @@ def webhook():
 def handle_message(event):
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text=event.message.text))
+        TextSendMessage(text=text))
 
 
 if __name__ == "__main__":
